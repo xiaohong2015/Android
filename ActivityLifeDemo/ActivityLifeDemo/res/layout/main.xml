@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<!-- <ImageView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:src="@drawable/activity_lifecycle"/> -->
+	<Button
+		android:id="@+id/start_simple"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/start_simple_text"
+		/>
+	<Button
+		android:id="@+id/start_revalue"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/start_revalue_text"
+		/>
+	<Button 
+		android:id="@+id/start_transfer_data"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/start_transfer_data_text"/>
+</LinearLayout>

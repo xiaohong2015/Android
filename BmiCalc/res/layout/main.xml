@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 身高 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">        
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/height"
+        android:numeric="integer"
+        android:gravity="center" />
+    <EditText 
+        android:id="@+id/heightId"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:numeric="integer"
+        android:gravity="center"/>
+    </LinearLayout>
+    
+    <!-- 体重 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/weight" 
+        android:gravity="center"/>
+    <EditText 
+        android:id="@+id/weithId"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"/>   
+    </LinearLayout>
+    
+    <!-- 功能操作 -->
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">        
+        <Button 
+            android:id="@+id/calc"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/calc"/>
+        <Button 
+            android:id="@+id/save"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/save" />
+        <Button 
+            android:id="@+id/list"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/list"/>
+    </LinearLayout>
+    
+    <!-- 显示结果 -->
+    <TextView 
+        android:id="@+id/result"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"/>
+
+</LinearLayout>

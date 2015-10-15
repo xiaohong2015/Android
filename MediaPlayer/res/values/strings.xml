@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MediaActivity!</string>
+    <string name="app_name">Media</string>
+	<string name="videoPlay">播放视频</string>
+	<string name="explainT">音乐播放进度条</string>
+	<string name="beginB">开始</string>
+	<string name="pauseB">暂停</string>
+	<string name="going">继续</string>
+	<string name="stopB">停止</string>
+	
+	<string name="about">关于</string>
+	<string name="exit">退出</string>
+	<string name="me">12网工-56洪浩然</string>
+	<string name="ok">确定</string>
+</resources>

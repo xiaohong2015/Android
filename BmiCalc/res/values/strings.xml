@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BmiCalcActivity!</string>
+    <string name="app_name">BmiCalc</string>
+
+    <string name="height">身高(CM)</string>
+    <string name="weight">体重(KG)</string>
+    <string name="result">结果</string>
+    <string name="time">创建时间</string>
+    
+    <string name="calc">计算bmi</string>
+    <string name="save">保存</string>
+    <string name="list">浏览</string>
+    
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+    <string name="me">洪浩然  12网络工程  201224132156</string>
+    <string name="ok">确定</string>
+    
+    <string name="your">你的BMI值为 : </string>
+    <string name="bad">建议 : 你应该回去多吃一点!太瘦啦</string>
+    <string name="toweight">建议 : 你应该去体育馆锻炼一下拉!太胖啦</string>
+    <string name="good">建议 : 恭喜你！身材好棒!继续保持</string>
+    
+    <string name="isDelete">是否删除</string>
+    <string name="cancer">取消操作</string>
+</resources>

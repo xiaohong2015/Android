@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/explainT"/>
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+	    <Button 
+	        android:id="@+id/beginB"
+	        android:layout_width="110dp"
+	        android:layout_height="50dp"
+	        android:text="@string/beginB"/>
+	    <Button 
+	        android:id="@+id/pauseB"
+	        android:layout_width="110dp"
+	        android:layout_height="50dp"
+	        android:text="@string/pauseB"/>
+	    <Button 
+	        android:id="@+id/stopB"
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:text="@string/stopB"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/videoB"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="@string/videoPlay" />
+
+</LinearLayout>

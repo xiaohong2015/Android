@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_revalue_text">启动一个带返回值的Activity</string>
+    <string name="start_simple_text">启动一个Activity</string>
+    <string name="start_transfer_data_text">传递数据到下一个Activity</string>
+    <string name="exit_text">返回</string>
+    <string name="app_name">ActivityLifeDemo</string>
+</resources>
